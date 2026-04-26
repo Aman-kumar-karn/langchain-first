@@ -1,11 +1,12 @@
 import os
+from langchain_community.DocumentLoader import PyPDFLoader
 from dotenv import load_dotenv
 from langchain_groq import ChatGroq
 
 load_dotenv()
 
 llm=ChatGroq(
-    api_key= os.environ.get("GROQ_API_KEY"),
+    # api_key= os.environ.get("GROQ_API_KEY"),
     model= "llama-3.1-8b-instant"
     )
 

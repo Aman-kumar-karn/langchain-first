@@ -1,0 +1,5 @@
+Apex is a strongly typed object-oriented programming language used in Salesforce.
+Triggers are Apex code that executes before or after database operations on records.
+SOQL is Salesforce Object Query Language used to fetch records from the database.
+LWC stands for Lightning Web Components used to build UI in Salesforce.
+Governor limits are runtime limits enforced by Salesforce to ensure shared resources.
